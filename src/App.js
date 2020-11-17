@@ -7,6 +7,7 @@ import SampleProps from './pages/SampleProps'
 import SampleState from './pages/SampleState'
 import SampleStyling from './pages/SampleStyling'
 import Communication from './pages/Communication'
+import BasicJavascript from './pages/BasicJavascript'
 
 const App = () => {
   return (
@@ -18,7 +19,8 @@ const App = () => {
         {/* <SampleProps /> */}
         {/* <SampleState /> */}
         {/* <SampleStyling /> */}
-        <Communication />
+        {/* <Communication /> */}
+        <BasicJavascript />
       </ScrollView>
     </View>
   )
