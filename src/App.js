@@ -8,6 +8,9 @@ import SampleState from './pages/SampleState'
 import SampleStyling from './pages/SampleStyling'
 import Communication from './pages/Communication'
 import BasicJavascript from './pages/BasicJavascript'
+import SampleSVG from './pages/SampleSVG'
+import SampleAPI from './pages/SampleAPI'
+import CallAPIAxios from './pages/CallAPIAxios'
 
 const App = () => {
   return (
@@ -20,7 +23,10 @@ const App = () => {
         {/* <SampleState /> */}
         {/* <SampleStyling /> */}
         {/* <Communication /> */}
-        <BasicJavascript />
+        {/* <BasicJavascript /> */}
+        {/* <SampleSVG /> */}
+        {/* <SampleAPI /> */}
+        <CallAPIAxios />
       </ScrollView>
     </View>
   )
